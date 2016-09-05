@@ -1,9 +1,9 @@
 class Chang < Formula
   desc "Chang!"
   homepage "https://github.com/majkelcc/chang"
-  url "https://github.com/majkelcc/chang/archive/0.1.0.tar.gz"
-  version "0.1.1"
-  sha256 "3732594562b66b92f402771533eeb9b551e710f9220c65d7ad74c804deb3f5ff"
+  url "https://github.com/majkelcc/chang/archive/0.1.2.tar.gz"
+  version "0.1.2"
+  sha256 "32d4aba986c62e7396b43173172a9e641fd27683ce7681726afce851c6637490"
 
   def install
     bin.install "chang"
