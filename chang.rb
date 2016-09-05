@@ -3,7 +3,7 @@ class Chang < Formula
   homepage "https://github.com/majkelcc/chang"
   url "https://github.com/majkelcc/chang/archive/0.1.0.tar.gz"
   version "0.1.1"
-  sha256 "9f7fc7fc80ee246528fd05a5fe3c415bd96753eabd4c7e9e8b6938335cb1cfa4"
+  sha256 "3732594562b66b92f402771533eeb9b551e710f9220c65d7ad74c804deb3f5ff"
 
   def install
     bin.install "chang"
