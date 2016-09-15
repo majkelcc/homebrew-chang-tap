@@ -6,7 +6,7 @@ class ChangRevProxy < Formula
   sha256 "49a03904eace68fe2765b1890faedda992a2444e9d1d9a54549f7978ce079183"
 
   def install
-    system "docker-compose build"
+    system 'PATH="/usr/local/bin:$PATH" docker-compose build'
     bin.install "chang-rev-proxy"
   end
 end
